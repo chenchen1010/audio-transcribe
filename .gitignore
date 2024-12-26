@@ -1,8 +1,39 @@
 # Python
 __pycache__/
 *.py[cod]
-whisper-env/
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 音频和临时文件
 *.mp3
-temp_*.mp3
+*.wav
+*.m4a
+temp_*
 *_转录结果.txt
-.DS_Store
+
+# 环境文件
+Miniforge3-*
+Miniconda3-*
+*.sh
+
+# IDE
+.vscode/
+.idea/
+*.swp
