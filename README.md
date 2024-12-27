@@ -7,4 +7,4 @@
 
 ## 使用方法
 1. 安装依赖：`pip3 install openai-whisper pydub`
-2. 运行：`python3 transcribe.py 音频文件.mp3`
+2. 运行：`python3 transcribe.py test.mp3`
